@@ -1,0 +1,30 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    min-height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#box{
+    background-color: red;
+    width: 960px;
+    height: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+#box div{
+    box-sizing: border-box;
+    background-color: blue; 
+    border: 1px solid black; 
+
+}
+button {
+    margin-bottom: 20px;
+}
